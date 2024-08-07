@@ -18,6 +18,7 @@ from django.urls import path,include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('practice/', include("practice.urls")),
+    path('model_task/', include("model_task.urls")),
 ]
 
 admin.site.site_title = "TicketsPlus site admin (DEV)"

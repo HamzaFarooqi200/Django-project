@@ -6,9 +6,9 @@ from .models import Student
 def make_status(modeladmin, request, queryset):
     queryset.update(status="m")
 class StudentAdmin(admin.ModelAdmin):
-    list_display=['name','email','status']
+    list_display=['name', 'email', 'status', 'is_sportsman', 'is_speaker']
     list_filter = ["name"]
-    search_fields = ["name","email"]
+    search_fields = ["name", "email"]
     actions=[make_status]
 
 admin.site.register(Student,StudentAdmin)
