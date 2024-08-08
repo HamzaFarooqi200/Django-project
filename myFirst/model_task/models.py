@@ -1,5 +1,5 @@
 import os
-from datetime import date
+from django.utils import timezone
 from django.db import models
 from django.contrib.auth.models import AbstractUser
 from django.core.exceptions import ValidationError
@@ -52,7 +52,7 @@ class Profile(models.Model):
     user = models.OneToOneField(User, related_name="user_profile",on_delete=models.CASCADE)
 
 def check_end_date(date):
-    today = date.today()
+    today = timezone.now().date()
     if date < today:
         raise ValidationError("your start date must be end date from now or onwards")
 
@@ -64,13 +64,17 @@ class Project(models.Model):
     end_date = models.DateField(validators=[check_end_date])
     team_members = models.ManyToManyField(User, related_name='project_member')
 
+    def __str__(self) -> str:
+        return self.title
+
     @property
     def check_date(self):
         if not self.start_date < self.end_date:
             raise ValidationError("the end date must be greater than start date")
     
     def save(self):
-        self.check_date()
+        self.check_date
+        return super().save()
 
 
 class Task(models.Model):
@@ -88,6 +92,8 @@ class Task(models.Model):
     project = models.ForeignKey(Project, related_name="task_project", on_delete=models.CASCADE)
     assignee = models.OneToOneField(User, related_name="assigned_user", on_delete=models.CASCADE)
 
+    def __str__(self) -> str:
+        return self.title
 
 class Document(models.Model):
     name = models.CharField(max_length=10)
@@ -96,9 +102,15 @@ class Document(models.Model):
     version = models.FloatField()
     project = models.ForeignKey(Project, related_name="document_project", on_delete=models.CASCADE)
 
+    def __str__(self) -> str:
+        return self.name
+
 class Comment(models.Model):
     text = models.TextField()
     author = models.OneToOneField(User, related_name="comment_author", on_delete=models.DO_NOTHING)
     created_at = models.DateTimeField()
     task = models.ForeignKey(Task, related_name="task_comment", on_delete=models.DO_NOTHING)
     project = models.ForeignKey(Project, related_name="project_comment", on_delete=models.DO_NOTHING)
+
+    def __str__(self) -> str:
+        return str(self.author)
