@@ -1,0 +1,492 @@
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 06:34:55.303098+00:00
+Not Found: /
+"GET / HTTP/1.1" 404 2464
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 06:35:22.065536+00:00
+Not Found: /model_task/login/thanks
+"GET /model_task/login/thanks HTTP/1.1" 404 3183
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 06:36:02.050024+00:00
+"GET /admin/ HTTP/1.1" 302 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 06:36:02.067976+00:00
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4173
+"GET /static/admin/css/base.css HTTP/1.1" 200 22092
+"GET /static/admin/js/theme.js HTTP/1.1" 304 0
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2804
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 17972
+"GET /static/admin/css/login.css HTTP/1.1" 200 951
+the ip address is: 127.0.0.1 and and at time: 2024-08-12 12:00:00+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-12 12:00:00+00:00
+/home/newuser/Desktop/second/myFirst/model_task/middlewares/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/model_task/middlewares/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 06:43:49.769496+00:00
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4173
+the ip address is: 127.0.0.1 and and at time: 2024-08-12 12:00:00+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-12 12:00:00+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-12 12:00:00+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-12 12:00:00+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-12 12:00:00+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-12 12:00:00+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-12 12:00:00+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-12 12:00:00+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-12 12:00:00+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-12 12:00:00+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-12 12:00:00+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-12 12:00:00+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-12 12:00:00+00:00
+the ip address is: 127.0.0.1 and and at time: 2022-01-01 12:00:00+00:00
+/home/newuser/Desktop/second/myFirst/model_task/middlewares/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /admin
+Not Found: /model_taskthanks/
+Not Found: /admin
+Not Found: /model_tasklogin/
+/home/newuser/Desktop/second/myFirst/model_task/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /admin
+Not Found: /model_tasklogin/
+/home/newuser/Desktop/second/myFirst/model_task/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /admin
+Not Found: /model_tasklogin/
+/home/newuser/Desktop/second/myFirst/model_task/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /admin
+Forbidden: /model_task/login/
+Not Found: /
+"GET / HTTP/1.1" 404 2464
+"GET /model_task/login/ HTTP/1.1" 200 474
+/home/newuser/Desktop/second/myFirst/model_task/middlewares/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /admin
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4173
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 13234
+"GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2515
+"GET /admin/model_task/customuser/ HTTP/1.1" 200 18360
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/filters.js HTTP/1.1" 200 978
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+Forbidden: /model_task/login/
+/home/newuser/Desktop/second/myFirst/model_task/middlewares/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/model_task/middlewares/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 07:58:36.927869+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 07:58:36.936857+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 07:58:37.276177+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 07:58:37.280460+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 07:58:37.283869+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 07:58:37.287247+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 07:58:37.291132+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 07:58:37.294518+00:00
+/home/newuser/Desktop/second/myFirst/model_task/middlewares/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:03:13.626009+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:03:13.634391+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:03:13.976623+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:03:13.979647+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:03:13.982562+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:03:13.985351+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:03:13.988238+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:03:13.991679+00:00
+/home/newuser/Desktop/second/myFirst/model_task/middlewares/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:03:37.861105+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:03:37.869741+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:03:38.230302+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:03:38.233267+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:03:38.236206+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:03:38.238967+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:03:38.241752+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:03:38.244681+00:00
+/home/newuser/Desktop/second/myFirst/model_task/middlewares/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/model_task/middlewares/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:05:07.615924+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:05:07.623458+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:05:07.966000+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:05:07.968973+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:05:07.971727+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:05:07.974347+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:05:07.977005+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:05:07.979854+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:07:11.391512+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:07:11.403063+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:07:11.773734+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:07:11.776663+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:07:11.779348+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:07:11.782763+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:07:11.785512+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:07:11.788522+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:08:42.526043+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:08:42.534943+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:08:42.878442+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:08:42.881344+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:08:42.884071+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:08:42.886751+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:08:42.889398+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:08:42.892345+00:00
+Internal Server Error: /model_task/login/
+Traceback (most recent call last):
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/lib/python3.10/unittest/mock.py", line 1114, in __call__
+    return self._mock_call(*args, **kwargs)
+  File "/usr/lib/python3.10/unittest/mock.py", line 1118, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+  File "/usr/lib/python3.10/unittest/mock.py", line 1179, in _execute_mock_call
+    result = effect(*args, **kwargs)
+TypeError: IpLogMiddlewareTestCase.test_ip_logging.<locals>.<lambda>() missing 1 required positional argument: 'request'
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:10:20.279518+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:10:20.289847+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:10:20.630855+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:10:20.633753+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:10:20.636478+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:10:20.639155+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:10:20.641742+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:10:20.644574+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:11:12.069259+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:11:12.080201+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:11:12.417638+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:11:12.421138+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:11:12.423905+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:11:12.426624+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:11:12.429243+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:11:12.432077+00:00
+Internal Server Error: /model_task/login/
+Traceback (most recent call last):
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/lib/python3.10/unittest/mock.py", line 1114, in __call__
+    return self._mock_call(*args, **kwargs)
+  File "/usr/lib/python3.10/unittest/mock.py", line 1118, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+  File "/usr/lib/python3.10/unittest/mock.py", line 1179, in _execute_mock_call
+    result = effect(*args, **kwargs)
+TypeError: IpLogMiddlewareTestCase.test_ip_logging.<locals>.<lambda>() missing 1 required positional argument: 'request'
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:11:29.651194+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:11:29.662284+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:11:30.007984+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:11:30.011077+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:11:30.013899+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:11:30.016518+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:11:30.019282+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:11:30.022188+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:11:55.127765+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:11:55.138693+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:11:55.483395+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:11:55.486325+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:11:55.488931+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:11:55.492241+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:11:55.494933+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:11:55.497798+00:00
+Internal Server Error: /model_task/login/
+Traceback (most recent call last):
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/lib/python3.10/unittest/mock.py", line 1114, in __call__
+    return self._mock_call(*args, **kwargs)
+  File "/usr/lib/python3.10/unittest/mock.py", line 1118, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+  File "/usr/lib/python3.10/unittest/mock.py", line 1179, in _execute_mock_call
+    result = effect(*args, **kwargs)
+TypeError: IpLogMiddlewareTestCase.test_ip_logging.<locals>.<lambda>() missing 1 required positional argument: 'request'
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:12:31.113422+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:12:31.125431+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:12:31.465002+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:12:31.467970+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:12:31.470662+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:12:31.473333+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:12:31.475929+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:12:31.478779+00:00
+Internal Server Error: /model_task/login/
+Traceback (most recent call last):
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/lib/python3.10/unittest/mock.py", line 1114, in __call__
+    return self._mock_call(*args, **kwargs)
+  File "/usr/lib/python3.10/unittest/mock.py", line 1118, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+  File "/usr/lib/python3.10/unittest/mock.py", line 1179, in _execute_mock_call
+    result = effect(*args, **kwargs)
+TypeError: IpLogMiddlewareTestCase.test_ip_logging.<locals>.<lambda>() missing 2 required positional arguments: 'request' and 'get_response'
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:14:09.124837+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:14:09.135626+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:14:09.474390+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:14:09.477261+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:14:09.479979+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:14:09.482739+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:14:09.485329+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:14:09.488142+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:17:01.692896+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:17:01.704283+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:17:02.064142+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:17:02.068277+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:17:02.071184+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:17:02.074022+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:17:02.076790+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:17:02.080413+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:17:43.856890+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:17:43.867835+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:17:44.215760+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:17:44.219260+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:17:44.222050+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:17:44.224706+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:17:44.227322+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:17:44.230130+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:18:43.112317+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:18:43.123855+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:18:43.464884+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:18:43.468443+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:18:43.471212+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:18:43.473928+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:18:43.476534+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:18:43.479413+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:20:16.094693+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:20:16.105496+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:20:16.447653+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:20:16.451189+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:20:16.453974+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:20:16.456876+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:20:16.459715+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:20:16.462528+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:21:00.682072+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:21:00.692684+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:21:01.031246+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:21:01.034245+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:21:01.036964+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:21:01.039641+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:21:01.042224+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:21:01.044984+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:25:50.845358+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:25:50.845916+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:25:50.846210+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:25:50.846465+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:48:02.162644+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:48:02.163147+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:48:02.163416+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:48:25.790833+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:48:25.791312+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:50:06.053424+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:50:06.053795+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:50:06.427394+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:50:06.438273+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:50:06.799256+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:50:06.802194+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:50:06.804872+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:50:06.808108+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:50:06.810781+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:50:06.813574+00:00
+/home/newuser/Desktop/second/myFirst/model_task/middlewares/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:52:08.087570+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:52:08.260192+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:52:08.260986+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:52:08.261291+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:52:08.605539+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:52:08.614535+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:52:08.956049+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:52:08.959044+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:52:08.961676+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:52:08.965028+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:52:08.967709+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:52:08.970527+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:56:16.750302+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:56:16.918643+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:56:16.919525+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:56:16.919802+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:56:17.257857+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:56:17.266747+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:56:17.600571+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:56:17.603549+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:56:17.606854+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:56:17.609536+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:56:17.612218+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:56:17.614995+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:57:08.330422+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:57:08.500759+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:57:08.501908+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:57:08.502287+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:57:08.848007+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:57:08.856927+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:57:09.213723+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:57:09.216728+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:57:09.220112+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:57:09.222836+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:57:09.225521+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:57:09.228317+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:57:23.843890+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:57:24.010131+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:57:24.010898+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:57:24.011198+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:57:24.351499+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:57:24.360406+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:57:24.697968+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:57:24.700898+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:57:24.703557+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:57:24.706894+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:57:24.709606+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:57:24.712404+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:57:57.875359+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:57:58.046088+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:57:58.046969+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:57:58.047277+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:57:58.391727+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:57:58.400800+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:57:58.739662+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:57:58.742681+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:57:58.745386+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:57:58.748775+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:57:58.751528+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:57:58.754416+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:58:05.880693+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:58:05.881726+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:58:05.882078+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:58:06.223105+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:58:06.232007+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:58:06.569689+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:58:06.572566+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:58:06.575221+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:58:06.578503+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:58:06.581150+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 08:58:06.583988+00:00
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 09:05:31.131018+00:00
+"GET /model_task/thanks/ HTTP/1.1" 200 505
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 09:05:31.163333+00:00
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 09:06:25.323934+00:00
+"POST /model_task/thanks/ HTTP/1.1" 301 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 09:06:25.330802+00:00
+"GET /model_task/login/ HTTP/1.1" 200 474
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 09:06:25.404423+00:00
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2515
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 09:06:42.833650+00:00
+"GET /model_task/thanks/ HTTP/1.1" 200 491
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 09:07:09.974820+00:00
+"GET /admin/model_task/customuser/ HTTP/1.1" 302 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 09:07:09.986602+00:00
+"GET /admin/login/?next=/admin/model_task/customuser/ HTTP/1.1" 200 4217
+/home/newuser/Desktop/second/myFirst/model_task/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/model_task/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/model_task/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /model_task/check/
+Traceback (most recent call last):
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view model_task.views.checkAuthentication didn't return an HttpResponse object. It returned None instead.
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 10:35:56.847108+00:00
+"GET /model_task/check/ HTTP/1.1" 500 71846
+Internal Server Error: /model_task/check/
+Traceback (most recent call last):
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view model_task.views.checkAuthentication didn't return an HttpResponse object. It returned None instead.
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 10:37:03.117064+00:00
+"GET /model_task/check/ HTTP/1.1" 500 71846
+Internal Server Error: /model_task/check/
+Traceback (most recent call last):
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view model_task.views.checkAuthentication didn't return an HttpResponse object. It returned None instead.
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 10:37:54.112656+00:00
+"GET /model_task/check/ HTTP/1.1" 500 71846
+/home/newuser/Desktop/second/myFirst/model_task/views.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 10:38:25.412701+00:00
+"GET /model_task/check/ HTTP/1.1" 200 24
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 10:39:21.224827+00:00
+"GET /model_task/login/ HTTP/1.1" 200 474
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 10:39:27.158690+00:00
+"POST /model_task/login/ HTTP/1.1" 302 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 10:39:27.175369+00:00
+"GET /model_task/thanks/ HTTP/1.1" 200 509
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 10:39:27.295505+00:00
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2515
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 10:39:51.715380+00:00
+"GET /model_task/check HTTP/1.1" 301 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 10:39:51.730470+00:00
+"GET /model_task/check/ HTTP/1.1" 200 281
+/home/newuser/Desktop/second/myFirst/model_task/views.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 10:42:43.942495+00:00
+"GET /model_task/check/ HTTP/1.1" 200 228
+Forbidden (CSRF token from POST incorrect.): /model_task/thanks/
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 10:44:45.882001+00:00
+"POST /model_task/thanks/ HTTP/1.1" 403 2503
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 10:44:47.453224+00:00
+"GET /model_task/thanks/ HTTP/1.1" 200 509
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 10:44:49.309606+00:00
+"POST /model_task/thanks/ HTTP/1.1" 301 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 10:44:49.320031+00:00
+"GET /model_task/login/ HTTP/1.1" 200 474
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 10:44:49.415302+00:00
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2515
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 10:44:54.978579+00:00
+"GET /model_task/check/ HTTP/1.1" 200 24
+/home/newuser/Desktop/second/myFirst/model_task/views.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 10:45:29.969484+00:00
+"GET /model_task/check/ HTTP/1.1" 301 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 10:45:29.983810+00:00
+"GET /model_task/login/ HTTP/1.1" 200 474
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 10:45:37.296733+00:00
+"GET /model_task/login/ HTTP/1.1" 200 474
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 10:45:43.618404+00:00
+"GET /model_task/thanks/ HTTP/1.1" 200 491
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 10:46:23.844539+00:00
+"GET /model_task/login/ HTTP/1.1" 200 474
+/home/newuser/Desktop/second/myFirst/model_task/views.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 10:48:23.444384+00:00
+"GET /model_task/login/ HTTP/1.1" 200 474
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 10:48:29.814121+00:00
+"GET /model_task/thanks/ HTTP/1.1" 301 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 10:48:29.830934+00:00
+"GET /model_task/login/ HTTP/1.1" 200 474
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 10:48:44.781984+00:00
+"GET /model_task/login/ HTTP/1.1" 200 474
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 10:49:18.223833+00:00
+"GET /model_task/thanks/ HTTP/1.1" 301 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-13 10:49:18.256660+00:00
+"GET /model_task/login/ HTTP/1.1" 200 474
