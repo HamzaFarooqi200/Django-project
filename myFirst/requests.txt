@@ -1,0 +1,1430 @@
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/myFirst/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/ HTTP/1.1" 200 15449
+/home/newuser/Desktop/second/myFirst/model_task/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/myFirst/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/myFirst/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/ HTTP/1.1" 200 15449
+/home/newuser/Desktop/second/myFirst/model_task/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 07:53:27.317515+00:00
+"GET /admin/ HTTP/1.1" 200 15449
+/home/newuser/Desktop/second/myFirst/model_task/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/myFirst/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/myFirst/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/myFirst/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/myFirst/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/myFirst/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/myFirst/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/model_task/middlewares/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/model_task/middlewares/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/model_task/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/model_task/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:03:47.415794+00:00
+Not Found: /
+"GET / HTTP/1.1" 404 2464
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:03:52.473715+00:00
+"GET /admin/ HTTP/1.1" 200 15449
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+"GET /static/admin/js/theme.js HTTP/1.1" 304 0
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:03:57.351504+00:00
+"GET /admin/model_task/user/ HTTP/1.1" 200 14808
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:03:57.393295+00:00
+"GET /static/admin/js/filters.js HTTP/1.1" 200 978
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:04:00.471848+00:00
+"GET /admin/model_task/user/add/ HTTP/1.1" 200 28303
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:04:00.542939+00:00
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+"GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+"GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:04:25.575576+00:00
+Internal Server Error: /admin/model_task/user/add/
+Traceback (most recent call last):
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1961, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1820, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1871, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1294, in save_model
+    obj.save()
+  File "/home/newuser/Desktop/second/myFirst/model_task/models.py", line 35, in save
+    Rate_limit.objects.create(user=self ,login_time=timezone.now() , req_count=0)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/db/models/query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/db/models/base.py", line 847, in save
+    self._prepare_related_fields_for_save(operation_name="save")
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1233, in _prepare_related_fields_for_save
+    raise ValueError(
+ValueError: save() prohibited to prevent data loss due to unsaved related object 'user'.
+"POST /admin/model_task/user/add/ HTTP/1.1" 500 152814
+/home/newuser/Desktop/second/myFirst/model_task/models.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:08:42.860490+00:00
+Internal Server Error: /admin/model_task/user/add/
+Traceback (most recent call last):
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1961, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1820, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1871, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1294, in save_model
+    obj.save()
+  File "/home/newuser/Desktop/second/myFirst/model_task/models.py", line 36, in save
+    r.save()
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/db/models/base.py", line 847, in save
+    self._prepare_related_fields_for_save(operation_name="save")
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1233, in _prepare_related_fields_for_save
+    raise ValueError(
+ValueError: save() prohibited to prevent data loss due to unsaved related object 'user'.
+"POST /admin/model_task/user/add/ HTTP/1.1" 500 144147
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:08:51.908783+00:00
+"GET /admin/model_task/ HTTP/1.1" 200 8362
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:08:55.274261+00:00
+"GET /admin/model_task/user/ HTTP/1.1" 200 14808
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:08:55.315773+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:08:56.714775+00:00
+"GET /admin/model_task/user/add/ HTTP/1.1" 200 28303
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:08:56.771525+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:09:17.098885+00:00
+Internal Server Error: /admin/model_task/user/add/
+Traceback (most recent call last):
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1961, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1820, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1871, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1294, in save_model
+    obj.save()
+  File "/home/newuser/Desktop/second/myFirst/model_task/models.py", line 36, in save
+    r.save()
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/db/models/base.py", line 847, in save
+    self._prepare_related_fields_for_save(operation_name="save")
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1233, in _prepare_related_fields_for_save
+    raise ValueError(
+ValueError: save() prohibited to prevent data loss due to unsaved related object 'user'.
+"POST /admin/model_task/user/add/ HTTP/1.1" 500 144131
+/home/newuser/Desktop/second/myFirst/model_task/middlewares/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/model_task/middlewares/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/model_task/middlewares/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:46:24.713067+00:00
+"GET /admin/model_task/ HTTP/1.1" 200 8362
+/home/newuser/Desktop/second/myFirst/model_task/models.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:46:44.282221+00:00
+"GET /admin/model_task/ HTTP/1.1" 200 8362
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:46:45.520659+00:00
+"GET /admin/model_task/user/ HTTP/1.1" 200 14808
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:46:45.556857+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:46:47.975424+00:00
+"GET /admin/model_task/ HTTP/1.1" 200 8362
+/home/newuser/Desktop/second/myFirst/model_task/admin.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:47:08.908670+00:00
+"GET /admin/model_task/ HTTP/1.1" 200 9007
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:47:12.418440+00:00
+"GET /admin/model_task/rate_limit/ HTTP/1.1" 200 12086
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:47:12.451188+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:47:14.124722+00:00
+"GET /admin/model_task/ HTTP/1.1" 200 9007
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:47:23.568669+00:00
+"GET /admin/model_task/user/ HTTP/1.1" 200 15266
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:47:23.601466+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:47:25.224295+00:00
+"GET /admin/model_task/user/add/ HTTP/1.1" 200 28761
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:47:25.281964+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:47:42.094717+00:00
+"POST /admin/model_task/user/add/ HTTP/1.1" 302 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:47:42.143786+00:00
+"GET /admin/model_task/user/ HTTP/1.1" 200 15754
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:47:42.227803+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:47:44.160163+00:00
+"GET /admin/model_task/rate_limit/ HTTP/1.1" 200 12086
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:47:44.194168+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:47:50.271334+00:00
+"GET /admin/model_task/rate_limit/add/ HTTP/1.1" 200 14916
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:47:50.314115+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:47:58.383086+00:00
+"POST /admin/model_task/rate_limit/add/ HTTP/1.1" 302 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:47:58.400865+00:00
+"GET /admin/model_task/rate_limit/ HTTP/1.1" 200 13614
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:47:58.484533+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:49:38.325264+00:00
+"GET /model_task HTTP/1.1" 301 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:49:38.342584+00:00
+"GET /model_task/ HTTP/1.1" 200 231
+/home/newuser/Desktop/second/myFirst/model_task/middlewares/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:50:26.455790+00:00
+"GET /model_task/ HTTP/1.1" 200 231
+/home/newuser/Desktop/second/myFirst/model_task/middlewares/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:51:38.086344+00:00
+"GET /model_task/ HTTP/1.1" 200 231
+/home/newuser/Desktop/second/myFirst/myFirst/settings.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:51:49.461654+00:00
+Internal Server Error: /model_task/
+Traceback (most recent call last):
+  File "/home/newuser/Desktop/second/myFirst/model_task/middlewares/middleware.py", line 31, in __call__
+    curr = Rate_limit.objects.get(user=request.user)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/db/models/query.py", line 649, in get
+    raise self.model.DoesNotExist(
+model_task.models.Rate_limit.DoesNotExist: Rate_limit matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/newuser/Desktop/second/myFirst/model_task/middlewares/middleware.py", line 33, in __call__
+    curr = Rate_limit.objects.create(request.user)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+TypeError: QuerySet.create() takes 1 positional argument but 2 were given
+"GET /model_task/ HTTP/1.1" 500 82846
+/home/newuser/Desktop/second/myFirst/model_task/middlewares/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:52:21.088932+00:00
+Internal Server Error: /model_task/
+Traceback (most recent call last):
+  File "/home/newuser/Desktop/second/myFirst/model_task/middlewares/middleware.py", line 31, in __call__
+    curr = Rate_limit.objects.filter(user=request.user).get()
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/db/models/query.py", line 649, in get
+    raise self.model.DoesNotExist(
+model_task.models.Rate_limit.DoesNotExist: Rate_limit matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/newuser/Desktop/second/myFirst/model_task/middlewares/middleware.py", line 33, in __call__
+    curr = Rate_limit.objects.create(request.user)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+TypeError: QuerySet.create() takes 1 positional argument but 2 were given
+"GET /model_task/ HTTP/1.1" 500 78524
+/home/newuser/Desktop/second/myFirst/model_task/middlewares/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:52:52.496557+00:00
+Internal Server Error: /model_task/
+Traceback (most recent call last):
+  File "/home/newuser/Desktop/second/myFirst/model_task/middlewares/middleware.py", line 32, in __call__
+    curr = Rate_limit.objects.filter(user=request.user).get()
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/db/models/query.py", line 649, in get
+    raise self.model.DoesNotExist(
+model_task.models.Rate_limit.DoesNotExist: Rate_limit matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/newuser/Desktop/second/myFirst/model_task/middlewares/middleware.py", line 34, in __call__
+    curr = Rate_limit.objects.create(request.user)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+TypeError: QuerySet.create() takes 1 positional argument but 2 were given
+"GET /model_task/ HTTP/1.1" 500 78554
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:53:20.002866+00:00
+Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/newuser/Desktop/second/myFirst/model_task/middlewares/middleware.py", line 32, in __call__
+    curr = Rate_limit.objects.filter(user=request.user).get()
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/db/models/query.py", line 649, in get
+    raise self.model.DoesNotExist(
+model_task.models.Rate_limit.DoesNotExist: Rate_limit matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/newuser/Desktop/second/myFirst/model_task/middlewares/middleware.py", line 34, in __call__
+    curr = Rate_limit.objects.create(request.user)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+TypeError: QuerySet.create() takes 1 positional argument but 2 were given
+"GET /admin/ HTTP/1.1" 500 78508
+/home/newuser/Desktop/second/myFirst/myFirst/settings.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:53:29.300090+00:00
+"GET /admin/ HTTP/1.1" 200 16082
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:53:30.782455+00:00
+"GET /admin/model_task/rate_limit/ HTTP/1.1" 200 13395
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:53:30.820036+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:53:32.409038+00:00
+"GET /admin/model_task/rate_limit/add/ HTTP/1.1" 200 14916
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:53:32.449975+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:53:37.039623+00:00
+"POST /admin/model_task/rate_limit/add/ HTTP/1.1" 302 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:53:37.057813+00:00
+"GET /admin/model_task/rate_limit/ HTTP/1.1" 200 13902
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:53:37.133809+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:53:40.758363+00:00
+"GET /admin/model_task/user/ HTTP/1.1" 200 15547
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:53:40.783862+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:53:43.395320+00:00
+"GET /admin/model_task/user/1/change/ HTTP/1.1" 200 29174
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:53:43.446573+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:53:48.105289+00:00
+"POST /admin/model_task/user/1/change/ HTTP/1.1" 200 29457
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:53:48.167368+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:54:21.929935+00:00
+"POST /admin/model_task/user/1/change/ HTTP/1.1" 302 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:54:21.971788+00:00
+"GET /admin/model_task/user/ HTTP/1.1" 302 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:54:22.027748+00:00
+"GET /admin/login/?next=/admin/model_task/user/ HTTP/1.1" 200 4414
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:54:39.161503+00:00
+"POST /admin/login/?next=/admin/model_task/user/ HTTP/1.1" 200 4373
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:56:29.902088+00:00
+"POST /admin/login/?next=/admin/model_task/user/ HTTP/1.1" 302 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:56:30.129315+00:00
+"GET /admin/model_task/user/ HTTP/1.1" 200 15830
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:56:30.201924+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:56:34.015265+00:00
+"GET /admin/model_task/rate_limit/ HTTP/1.1" 200 13682
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 10:56:34.046095+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+/home/newuser/Desktop/second/myFirst/model_task/middlewares/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 11:00:28.467201+00:00
+"GET /admin/model_task/rate_limit/ HTTP/1.1" 200 13682
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 11:00:28.510729+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+/home/newuser/Desktop/second/myFirst/myFirst/settings.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 11:00:47.378913+00:00
+Internal Server Error: /admin/model_task/rate_limit/
+Traceback (most recent call last):
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/newuser/Desktop/second/myFirst/model_task/middlewares/middleware.py", line 39, in __call__
+    return self.handle_limit(request, curr)
+  File "/home/newuser/Desktop/second/myFirst/model_task/middlewares/middleware.py", line 46, in handle_limit
+    if (now - user.login_time) > 1:
+TypeError: '>' not supported between instances of 'datetime.timedelta' and 'int'
+"GET /admin/model_task/rate_limit/ HTTP/1.1" 500 71110
+/home/newuser/Desktop/second/myFirst/model_task/middlewares/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/model_task/middlewares/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/model_task/middlewares/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 11:04:10.079210+00:00
+Internal Server Error: /admin/model_task/rate_limit/
+Traceback (most recent call last):
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/newuser/Desktop/second/myFirst/model_task/middlewares/middleware.py", line 39, in __call__
+    return self.handle_limit(request, curr)
+  File "/home/newuser/Desktop/second/myFirst/model_task/middlewares/middleware.py", line 46, in handle_limit
+    if int((now - user.login_time)) > 1:
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'datetime.timedelta'
+"GET /admin/model_task/rate_limit/ HTTP/1.1" 500 71216
+/home/newuser/Desktop/second/myFirst/model_task/middlewares/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 11:04:44.349962+00:00
+"GET /admin/model_task/rate_limit/ HTTP/1.1" 302 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 11:04:44.392223+00:00
+"GET /admin/login/?next=/admin/model_task/rate_limit/ HTTP/1.1" 200 3741
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 11:04:57.163465+00:00
+"GET /admin/login/?next=/admin/model_task/rate_limit/ HTTP/1.1" 200 3741
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 11:05:02.009982+00:00
+"GET /admin/login/?next=/admin/model_task/rate_limit/ HTTP/1.1" 200 3741
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 11:05:02.763190+00:00
+"GET /admin/login/?next=/admin/model_task/rate_limit/ HTTP/1.1" 200 3741
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 11:05:03.698514+00:00
+"GET /admin/login/?next=/admin/model_task/rate_limit/ HTTP/1.1" 200 3741
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 11:05:04.148586+00:00
+"GET /admin/login/?next=/admin/model_task/rate_limit/ HTTP/1.1" 200 3741
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 11:05:05.115507+00:00
+"GET /admin/login/?next=/admin/model_task/rate_limit/ HTTP/1.1" 200 3741
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 11:05:05.652073+00:00
+"GET /admin/login/?next=/admin/model_task/rate_limit/ HTTP/1.1" 200 3741
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 11:05:06.064193+00:00
+"GET /admin/login/?next=/admin/model_task/rate_limit/ HTTP/1.1" 200 3741
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 11:05:06.517358+00:00
+"GET /admin/login/?next=/admin/model_task/rate_limit/ HTTP/1.1" 200 18
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 11:05:10.948165+00:00
+"GET /admin/login/?next=/admin/model_task/rate_limit/ HTTP/1.1" 200 18
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 11:05:11.598612+00:00
+"GET /admin/login/?next=/admin/model_task/rate_limit/ HTTP/1.1" 200 18
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 11:05:12.002347+00:00
+"GET /admin/login/?next=/admin/model_task/rate_limit/ HTTP/1.1" 200 18
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 11:05:12.184785+00:00
+"GET /admin/login/?next=/admin/model_task/rate_limit/ HTTP/1.1" 200 18
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 11:05:12.357552+00:00
+"GET /admin/login/?next=/admin/model_task/rate_limit/ HTTP/1.1" 200 18
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 11:05:12.488823+00:00
+"GET /admin/login/?next=/admin/model_task/rate_limit/ HTTP/1.1" 200 18
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 11:05:12.656190+00:00
+"GET /admin/login/?next=/admin/model_task/rate_limit/ HTTP/1.1" 200 18
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 11:05:12.834195+00:00
+"GET /admin/login/?next=/admin/model_task/rate_limit/ HTTP/1.1" 200 18
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 11:05:12.991381+00:00
+"GET /admin/login/?next=/admin/model_task/rate_limit/ HTTP/1.1" 200 18
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 11:05:13.153689+00:00
+"GET /admin/login/?next=/admin/model_task/rate_limit/ HTTP/1.1" 200 18
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 11:05:13.360185+00:00
+"GET /admin/login/?next=/admin/model_task/rate_limit/ HTTP/1.1" 200 18
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 11:06:56.697597+00:00
+"GET /admin/login/?next=/admin/model_task/rate_limit/ HTTP/1.1" 200 3741
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 11:07:02.141691+00:00
+"GET /admin/login/?next=/admin/model_task/rate_limit/ HTTP/1.1" 200 3741
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 11:07:03.124675+00:00
+"GET /admin/login/?next=/admin/model_task/rate_limit/ HTTP/1.1" 200 3741
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 11:07:03.655405+00:00
+"GET /admin/login/?next=/admin/model_task/rate_limit/ HTTP/1.1" 200 3741
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 11:07:03.990317+00:00
+"GET /admin/login/?next=/admin/model_task/rate_limit/ HTTP/1.1" 200 3741
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 11:07:04.307028+00:00
+"GET /admin/login/?next=/admin/model_task/rate_limit/ HTTP/1.1" 200 3741
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 11:07:04.623106+00:00
+"GET /admin/login/?next=/admin/model_task/rate_limit/ HTTP/1.1" 200 3741
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 11:07:04.864827+00:00
+"GET /admin/login/?next=/admin/model_task/rate_limit/ HTTP/1.1" 200 3741
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 11:07:05.112281+00:00
+"GET /admin/login/?next=/admin/model_task/rate_limit/ HTTP/1.1" 200 3741
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 11:07:05.372102+00:00
+"GET /admin/login/?next=/admin/model_task/rate_limit/ HTTP/1.1" 200 3741
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 11:07:05.670914+00:00
+"GET /admin/login/?next=/admin/model_task/rate_limit/ HTTP/1.1" 200 18
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 11:07:06.133075+00:00
+"GET /admin/login/?next=/admin/model_task/rate_limit/ HTTP/1.1" 200 18
+/home/newuser/Desktop/second/myFirst/model_task/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/model_task/views.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 12:31:34.751485+00:00
+Not Found: /
+"GET / HTTP/1.1" 404 2464
+/home/newuser/Desktop/second/myFirst/model_task/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/model_task/urls.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 12:33:19.212357+00:00
+"GET /model_task/ HTTP/1.1" 200 231
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 12:33:32.302607+00:00
+"GET /model_task/signup/ HTTP/1.1" 200 329
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 12:33:41.320879+00:00
+Forbidden (CSRF token missing.): /model_task/signup/
+"POST /model_task/signup/ HTTP/1.1" 403 2491
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 12:33:56.345732+00:00
+"GET /model_task/signup/ HTTP/1.1" 200 329
+/home/newuser/Desktop/second/myFirst/model_task/forms.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 12:36:31.992483+00:00
+"GET /model_task/signup/ HTTP/1.1" 200 329
+/home/newuser/Desktop/second/myFirst/model_task/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/model_task/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/model_task/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/model_task/urls.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 12:42:30.339639+00:00
+Not Found: /
+"GET / HTTP/1.1" 404 2464
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 12:42:39.839825+00:00
+"GET /model_task/signup/ HTTP/1.1" 200 329
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 12:43:46.088569+00:00
+"GET /model_task/signup/ HTTP/1.1" 200 285
+/home/newuser/Desktop/second/myFirst/model_task/forms.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 12:46:08.713000+00:00
+"GET /model_task/signup/ HTTP/1.1" 200 2712
+/home/newuser/Desktop/second/myFirst/model_task/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/model_task/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/model_task/views.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 12:52:03.098888+00:00
+"GET /model_task/signup/ HTTP/1.1" 200 2759
+/home/newuser/Desktop/second/myFirst/model_task/forms.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 12:52:54.442544+00:00
+"GET /model_task/signup/ HTTP/1.1" 200 2604
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 12:53:08.444279+00:00
+"POST /model_task/signup/ HTTP/1.1" 200 2741
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 12:53:40.917820+00:00
+"POST /model_task/signup/ HTTP/1.1" 200 2741
+/home/newuser/Desktop/second/myFirst/model_task/forms.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 12:54:40.192892+00:00
+Forbidden (CSRF token from POST incorrect.): /model_task/signup/
+"POST /model_task/signup/ HTTP/1.1" 403 2503
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 12:54:49.913802+00:00
+Forbidden (CSRF token from POST incorrect.): /model_task/signup/
+"POST /model_task/signup/ HTTP/1.1" 403 2503
+/home/newuser/Desktop/second/myFirst/model_task/forms.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 12:54:58.028137+00:00
+Forbidden (CSRF token from POST incorrect.): /model_task/signup/
+"POST /model_task/signup/ HTTP/1.1" 403 2503
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 12:55:08.442155+00:00
+Forbidden (CSRF token from POST incorrect.): /model_task/signup/
+"POST /model_task/signup/ HTTP/1.1" 403 2503
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 12:55:45.612013+00:00
+Forbidden (CSRF token from POST incorrect.): /model_task/signup/
+"POST /model_task/signup/ HTTP/1.1" 403 2503
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 12:55:58.330648+00:00
+Forbidden (CSRF token from POST incorrect.): /model_task/signup/
+"POST /model_task/signup/ HTTP/1.1" 403 2503
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 12:56:26.018245+00:00
+Not Found: /
+"GET / HTTP/1.1" 404 2464
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 12:56:37.741714+00:00
+"GET /model_task/signup/ HTTP/1.1" 200 2613
+/home/newuser/Desktop/second/myFirst/model_task/forms.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 12:56:49.107492+00:00
+"GET /model_task/signup/ HTTP/1.1" 200 2458
+/home/newuser/Desktop/second/myFirst/model_task/forms.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 12:57:10.997081+00:00
+"GET /model_task/signup/ HTTP/1.1" 200 2613
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 12:57:31.791749+00:00
+Forbidden (CSRF token missing.): /model_task/signup/
+"POST /model_task/signup/ HTTP/1.1" 403 2491
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 12:57:46.441523+00:00
+Forbidden (CSRF token missing.): /model_task/signup/
+"POST /model_task/signup/ HTTP/1.1" 403 2491
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 12:57:58.037603+00:00
+Forbidden (CSRF token missing.): /model_task/signup/
+"POST /model_task/signup/ HTTP/1.1" 403 2491
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 12:58:01.797662+00:00
+Not Found: /
+"GET / HTTP/1.1" 404 2464
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 12:58:08.504139+00:00
+"GET /model_task/signup/ HTTP/1.1" 200 2604
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 12:58:31.153254+00:00
+"POST /model_task/signup/ HTTP/1.1" 302 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 12:58:31.360667+00:00
+"GET /model_task/thanks/ HTTP/1.1" 200 231
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 12:58:43.163864+00:00
+"GET /admin/ HTTP/1.1" 302 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 12:58:43.194628+00:00
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 3697
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+"GET /static/admin/js/theme.js HTTP/1.1" 304 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 12:58:56.371689+00:00
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 12:58:56.574308+00:00
+"GET /admin/ HTTP/1.1" 302 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 12:58:56.648292+00:00
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 3697
+/home/newuser/Desktop/second/myFirst/model_task/middlewares/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/myFirst/settings.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 12:59:50.000231+00:00
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 12:59:50.199803+00:00
+"GET /admin/ HTTP/1.1" 200 12442
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 12:59:52.702046+00:00
+"GET /admin/model_task/user/ HTTP/1.1" 200 16115
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 12:59:52.749744+00:00
+"GET /static/admin/js/filters.js HTTP/1.1" 200 978
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+/home/newuser/Desktop/second/myFirst/model_task/forms.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:01:39.720424+00:00
+"GET /admin/model_task/user/11/change/ HTTP/1.1" 200 29142
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:01:39.808040+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+"GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:01:43.902696+00:00
+"GET /admin/model_task/user/11/delete/ HTTP/1.1" 200 12024
+"GET /static/admin/js/cancel.js HTTP/1.1" 304 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:01:45.391529+00:00
+Internal Server Error: /admin/model_task/user/11/delete/
+Traceback (most recent call last):
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/db/backends/base/base.py", line 303, in _commit
+    return self.connection.commit()
+sqlite3.IntegrityError: FOREIGN KEY constraint failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 2180, in delete_view
+    with transaction.atomic(using=router.db_for_write(self.model)):
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/db/transaction.py", line 263, in __exit__
+    connection.commit()
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/db/backends/base/base.py", line 327, in commit
+    self._commit()
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/db/backends/base/base.py", line 302, in _commit
+    with debug_transaction(self, "COMMIT"), self.wrap_database_errors:
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/db/backends/base/base.py", line 303, in _commit
+    return self.connection.commit()
+django.db.utils.IntegrityError: FOREIGN KEY constraint failed
+"POST /admin/model_task/user/11/delete/ HTTP/1.1" 500 142447
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:02:25.698083+00:00
+"GET /admin/model_task/user/11/delete/ HTTP/1.1" 200 12187
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:02:27.579373+00:00
+"GET /admin/model_task/user/11/change/ HTTP/1.1" 200 29142
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:02:40.366008+00:00
+"GET /model_task/signup/ HTTP/1.1" 200 2604
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:03:35.985918+00:00
+"POST /model_task/signup/ HTTP/1.1" 302 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:03:36.183755+00:00
+"GET /model_task/thanks/ HTTP/1.1" 200 231
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:03:40.147041+00:00
+"GET /admin/model_task/user/ HTTP/1.1" 200 16394
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:03:42.601395+00:00
+"GET /admin/model_task/rate_limit/ HTTP/1.1" 200 13965
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:03:42.632651+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:03:43.747267+00:00
+"GET /admin/model_task/rate_limit/3/change/ HTTP/1.1" 200 15288
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:03:43.779973+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:03:46.000506+00:00
+"GET /admin/model_task/rate_limit/ HTTP/1.1" 200 13965
+/home/newuser/Desktop/second/myFirst/model_task/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/model_task/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/model_task/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/model_task/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/model_task/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/model_task/urls.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:10:23.189606+00:00
+"GET /model_task/login HTTP/1.1" 301 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:10:23.209327+00:00
+"GET /model_task/login/ HTTP/1.1" 200 591
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:10:48.037130+00:00
+"POST /model_task/login/ HTTP/1.1" 200 694
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:12:42.515505+00:00
+"GET /admin/model_task/user/ HTTP/1.1" 200 16394
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:12:42.566843+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:13:09.765468+00:00
+"POST /model_task/login/ HTTP/1.1" 200 691
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:13:21.127168+00:00
+"GET /admin/model_task/user/12/change/ HTTP/1.1" 200 29130
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:13:21.195558+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+/home/newuser/Desktop/second/myFirst/model_task/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:14:46.089394+00:00
+"GET /model_task/signup/ HTTP/1.1" 200 2604
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:15:51.079870+00:00
+"POST /model_task/signup/ HTTP/1.1" 302 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:15:51.281332+00:00
+"GET /model_task/thanks/ HTTP/1.1" 200 231
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:15:59.890927+00:00
+"GET /model_task/login/ HTTP/1.1" 200 591
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:16:13.139633+00:00
+"POST /model_task/login/ HTTP/1.1" 200 693
+/home/newuser/Desktop/second/myFirst/model_task/forms.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:16:28.255838+00:00
+"POST /model_task/login/ HTTP/1.1" 200 693
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:16:31.321689+00:00
+"GET /model_task/login/ HTTP/1.1" 200 591
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:16:46.913483+00:00
+"POST /model_task/login/ HTTP/1.1" 200 693
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:16:59.785384+00:00
+"GET /admin/model_task/user/ HTTP/1.1" 200 16677
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:17:01.640827+00:00
+"GET /admin/model_task/rate_limit/ HTTP/1.1" 200 14252
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:17:01.671306+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:17:03.639727+00:00
+"GET /admin/model_task/user/ HTTP/1.1" 200 16677
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:17:03.690147+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:17:05.119841+00:00
+"GET /admin/model_task/user/13/change/ HTTP/1.1" 200 29138
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:17:05.196394+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+/home/newuser/Desktop/second/myFirst/model_task/forms.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:18:47.716764+00:00
+"GET /admin/model_task/user/add/ HTTP/1.1" 200 28761
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:18:47.797048+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:19:20.524049+00:00
+Internal Server Error: /admin/model_task/user/add/
+Traceback (most recent call last):
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/db/backends/base/base.py", line 303, in _commit
+    return self.connection.commit()
+sqlite3.IntegrityError: FOREIGN KEY constraint failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1961, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1819, in changeform_view
+    with transaction.atomic(using=router.db_for_write(self.model)):
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/db/transaction.py", line 263, in __exit__
+    connection.commit()
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/db/backends/base/base.py", line 327, in commit
+    self._commit()
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/db/backends/base/base.py", line 302, in _commit
+    with debug_transaction(self, "COMMIT"), self.wrap_database_errors:
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/db/backends/base/base.py", line 303, in _commit
+    return self.connection.commit()
+django.db.utils.IntegrityError: FOREIGN KEY constraint failed
+"POST /admin/model_task/user/add/ HTTP/1.1" 500 148602
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:21:02.095165+00:00
+"GET /model_task/signup/ HTTP/1.1" 200 2760
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:21:40.851861+00:00
+"POST /model_task/signup/ HTTP/1.1" 200 2911
+/home/newuser/Desktop/second/myFirst/practice/migrations/0001_initial.py changed, reloading.
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/model_task/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/model_task/forms.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:32:14.778437+00:00
+Internal Server Error: /model_task/signup/
+Traceback (most recent call last):
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 149, in post
+    form = self.get_form()
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 37, in get_form
+    return form_class(**self.get_form_kwargs())
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/contrib/auth/forms.py", line 211, in __init__
+    super().__init__(*args, **kwargs)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/forms/models.py", line 362, in __init__
+    raise ValueError("ModelForm has no model class specified.")
+ValueError: ModelForm has no model class specified.
+"POST /model_task/signup/ HTTP/1.1" 500 97958
+/home/newuser/Desktop/second/myFirst/model_task/forms.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:32:30.758092+00:00
+"POST /model_task/signup/ HTTP/1.1" 302 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:32:30.978327+00:00
+"GET /model_task/thanks/ HTTP/1.1" 200 231
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:32:39.540341+00:00
+"GET /model_task/signup/ HTTP/1.1" 200 2604
+/home/newuser/Desktop/second/myFirst/model_task/forms.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:38:02.691757+00:00
+"GET /model_task/signup/ HTTP/1.1" 200 2604
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:38:03.551422+00:00
+"GET /model_task/signup/ HTTP/1.1" 200 2604
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:38:04.150899+00:00
+"GET /model_task/signup/ HTTP/1.1" 200 2604
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:38:04.885887+00:00
+"GET /model_task/signup/ HTTP/1.1" 200 2604
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:38:05.127507+00:00
+"GET /model_task/signup/ HTTP/1.1" 200 2604
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:40:07.398193+00:00
+"POST /model_task/signup/ HTTP/1.1" 200 2741
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:41:05.202218+00:00
+Not Found: /
+"GET / HTTP/1.1" 404 2464
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:41:05.234853+00:00
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2515
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:41:19.484828+00:00
+"GET /model_task/signup HTTP/1.1" 301 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:41:19.491737+00:00
+"GET /model_task/signup/ HTTP/1.1" 200 2604
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:41:57.685850+00:00
+"GET /admin HTTP/1.1" 301 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:41:57.693405+00:00
+"GET /admin/ HTTP/1.1" 302 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:41:57.708612+00:00
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4173
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2804
+"GET /static/admin/css/base.css HTTP/1.1" 200 22092
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+"GET /static/admin/css/login.css HTTP/1.1" 200 951
+"GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 17972
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:42:12.114889+00:00
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:42:12.308902+00:00
+"GET /admin/ HTTP/1.1" 200 12442
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:42:17.032045+00:00
+"GET /admin/model_task/user/ HTTP/1.1" 200 13616
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:42:17.062454+00:00
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9097
+"GET /static/admin/js/core.js HTTP/1.1" 200 6208
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+"GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+"GET /static/admin/js/filters.js HTTP/1.1" 200 978
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:42:20.179893+00:00
+"GET /admin/model_task/user/2/change/ HTTP/1.1" 200 28819
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:42:20.258600+00:00
+"GET /static/admin/css/forms.css HTTP/1.1" 200 8710
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+"GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+"GET /static/admin/css/widgets.css HTTP/1.1" 200 11564
+"GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:42:25.186261+00:00
+"GET /admin/model_task/user/ HTTP/1.1" 200 13616
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:42:26.238349+00:00
+"GET /admin/model_task/user/1/change/ HTTP/1.1" 200 28789
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:42:26.286625+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:42:43.774243+00:00
+"GET /admin/model_task/user/ HTTP/1.1" 200 13616
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:42:44.175055+00:00
+"GET /admin/ HTTP/1.1" 200 12442
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:42:44.751904+00:00
+"GET /admin/login/?next=/admin/ HTTP/1.1" 302 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:42:44.762493+00:00
+"GET /admin/ HTTP/1.1" 200 12442
+/home/newuser/Desktop/second/myFirst/model_task/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/model_task/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/myFirst/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/model_task/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/model_task/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/model_task/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/model_task/admin.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:49:00.917249+00:00
+"GET /model_task/signup/ HTTP/1.1" 200 2595
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:49:03.624456+00:00
+"GET /model_task/signup/ HTTP/1.1" 200 2595
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:49:04.878085+00:00
+"GET /model_task/signup/ HTTP/1.1" 200 2595
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:49:35.137413+00:00
+"POST /model_task/signup/ HTTP/1.1" 302 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:49:35.334581+00:00
+"GET /model_task/thanks/ HTTP/1.1" 200 231
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:49:53.227101+00:00
+"GET /admin/ HTTP/1.1" 302 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:49:53.241316+00:00
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4173
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:49:58.440419+00:00
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:49:58.657401+00:00
+"GET /admin/ HTTP/1.1" 200 12484
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:50:00.000557+00:00
+"GET /admin/model_task/customuser/ HTTP/1.1" 200 13668
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:50:00.032726+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:50:04.744853+00:00
+"GET /admin/model_task/rate_limit/ HTTP/1.1" 200 13424
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:50:04.799483+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:50:08.434898+00:00
+"GET /admin/model_task/customuser/ HTTP/1.1" 200 13668
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:50:19.186238+00:00
+"GET /model_task/signup/ HTTP/1.1" 200 2595
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:50:40.863397+00:00
+"POST /model_task/signup/ HTTP/1.1" 302 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:50:41.050222+00:00
+"GET /model_task/thanks/ HTTP/1.1" 200 231
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:50:51.428102+00:00
+"GET /model_task/signup/ HTTP/1.1" 200 2595
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:51:18.769761+00:00
+"POST /model_task/signup/ HTTP/1.1" 200 2732
+/home/newuser/Desktop/second/myFirst/model_task/forms.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:55:06.405746+00:00
+"POST /model_task/signup/ HTTP/1.1" 200 2955
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:55:10.142786+00:00
+"POST /model_task/signup/ HTTP/1.1" 200 2955
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:55:23.061346+00:00
+"POST /model_task/signup/ HTTP/1.1" 200 2955
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:55:23.081602+00:00
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2515
+/home/newuser/Desktop/second/myFirst/model_task/forms.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:55:57.456064+00:00
+"POST /model_task/signup/ HTTP/1.1" 200 2697
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:56:27.156961+00:00
+"POST /model_task/signup/ HTTP/1.1" 302 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:56:27.379211+00:00
+"GET /model_task/thanks/ HTTP/1.1" 200 231
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:56:33.168268+00:00
+"GET /admin/model_task/customuser/ HTTP/1.1" 200 14244
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:56:33.204304+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:56:35.993753+00:00
+"GET /admin/model_task/customuser/4/change/ HTTP/1.1" 200 28809
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:56:36.045532+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:56:41.926809+00:00
+"GET /admin/model_task/customuser/ HTTP/1.1" 200 14244
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:56:42.825548+00:00
+"GET /admin/model_task/customuser/3/change/ HTTP/1.1" 200 28819
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:56:42.874135+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 13:56:44.848836+00:00
+"GET /admin/model_task/customuser/ HTTP/1.1" 200 14244
+/home/newuser/Desktop/second/myFirst/model_task/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/model_task/models.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:18:50.558205+00:00
+"GET /admin/ HTTP/1.1" 200 12484
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:18:55.643311+00:00
+"GET /admin/model_task/customuser/ HTTP/1.1" 200 14244
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:18:55.675851+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:18:57.971855+00:00
+"GET /admin/model_task/customuser/add/ HTTP/1.1" 200 28438
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:18:58.055476+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:18:59.676847+00:00
+"GET /admin/model_task/customuser/ HTTP/1.1" 200 14244
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:19:01.406551+00:00
+"GET /admin/model_task/customuser/1/change/ HTTP/1.1" 200 28853
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:19:01.453955+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:19:06.462228+00:00
+"GET /admin/model_task/customuser/ HTTP/1.1" 200 14244
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:19:08.201014+00:00
+"GET /admin/model_task/customuser/2/change/ HTTP/1.1" 200 28805
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:19:08.248809+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:19:11.315384+00:00
+"GET /admin/model_task/customuser/ HTTP/1.1" 200 14244
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:19:12.277624+00:00
+"GET /admin/model_task/customuser/3/change/ HTTP/1.1" 200 28819
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:19:12.322226+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:19:17.863745+00:00
+"GET /admin/model_task/customuser/ HTTP/1.1" 200 14244
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:19:19.594689+00:00
+"GET /admin/model_task/customuser/add/ HTTP/1.1" 200 28438
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:19:19.640415+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:19:52.734139+00:00
+"POST /admin/model_task/customuser/add/ HTTP/1.1" 302 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:19:52.753026+00:00
+"GET /admin/model_task/customuser/ HTTP/1.1" 200 14750
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:19:52.822501+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+/home/newuser/Desktop/second/myFirst/model_task/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/model_task/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:32:24.228002+00:00
+Not Found: /admin/model_task/signup
+"GET /admin/model_task/signup HTTP/1.1" 404 7849
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:33:11.078284+00:00
+"GET /admin/model_task/ HTTP/1.1" 200 9041
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:33:25.192525+00:00
+"GET /model_task/signup/ HTTP/1.1" 200 952
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:33:49.928449+00:00
+"GET /admin/ HTTP/1.1" 200 12871
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:33:51.943163+00:00
+"GET /admin/model_task/customuser/ HTTP/1.1" 200 14530
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:33:51.973505+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+/home/newuser/Desktop/second/myFirst/model_task/forms.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:34:16.154831+00:00
+"GET /model_task/signup/ HTTP/1.1" 200 1108
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:34:57.361178+00:00
+"POST /model_task/signup/ HTTP/1.1" 302 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:34:57.383543+00:00
+"GET /model_task/thanks/ HTTP/1.1" 200 231
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:35:02.685055+00:00
+"GET /admin/model_task/customuser/ HTTP/1.1" 200 14831
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:35:02.724891+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:35:10.324569+00:00
+"GET /admin/model_task/customuser/6/change/ HTTP/1.1" 200 29056
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:35:10.386784+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+/home/newuser/Desktop/second/myFirst/model_task/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/model_task/forms.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:35:44.853697+00:00
+"GET /admin/model_task/customuser/6/delete/ HTTP/1.1" 200 12235
+"GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:35:46.259531+00:00
+"POST /admin/model_task/customuser/6/delete/ HTTP/1.1" 302 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:35:46.279324+00:00
+"GET /admin/model_task/customuser/ HTTP/1.1" 200 14699
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:35:46.362225+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:35:55.515212+00:00
+"GET /model_task/signup/ HTTP/1.1" 200 1110
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:36:11.574731+00:00
+"POST /model_task/signup/ HTTP/1.1" 302 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:36:11.590547+00:00
+"GET /model_task/thanks/ HTTP/1.1" 200 231
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:36:16.566121+00:00
+"GET /admin/model_task/customuser/ HTTP/1.1" 200 14831
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:36:16.588800+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:36:18.079013+00:00
+"GET /admin/model_task/customuser/7/change/ HTTP/1.1" 200 29077
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:36:18.130320+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:36:39.849084+00:00
+"GET /model_task/signup/ HTTP/1.1" 200 1110
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:37:02.413943+00:00
+"POST /model_task/signup/ HTTP/1.1" 302 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:37:02.446023+00:00
+"GET /model_task/thanks/ HTTP/1.1" 200 231
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:37:09.793191+00:00
+"GET /admin/model_task/customuser/7/change/ HTTP/1.1" 200 29077
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:37:09.860929+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:37:12.825633+00:00
+"GET /admin/model_task/customuser/ HTTP/1.1" 200 15138
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:37:12.848105+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:37:14.872949+00:00
+"GET /admin/model_task/customuser/ HTTP/1.1" 200 15138
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:37:14.895570+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:37:16.777961+00:00
+"GET /admin/model_task/customuser/8/change/ HTTP/1.1" 200 29089
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:37:16.826311+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+/home/newuser/Desktop/second/myFirst/model_task/forms.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:38:06.493686+00:00
+"GET /model_task/login HTTP/1.1" 301 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:38:06.502473+00:00
+"GET /model_task/login/ HTTP/1.1" 200 591
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:38:25.589314+00:00
+"POST /model_task/login/ HTTP/1.1" 200 765
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:38:54.095066+00:00
+"GET /admin/model_task/customuser/ HTTP/1.1" 200 15138
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:38:57.172473+00:00
+"GET /admin/model_task/customuser/7/change/ HTTP/1.1" 200 29077
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:38:57.230626+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:39:09.159711+00:00
+"POST /model_task/login/ HTTP/1.1" 200 765
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:39:14.750558+00:00
+"GET /model_task/login/ HTTP/1.1" 200 591
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:39:25.591812+00:00
+"POST /model_task/login/ HTTP/1.1" 200 762
+/home/newuser/Desktop/second/myFirst/model_task/forms.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:40:11.124512+00:00
+Internal Server Error: /model_task/login/
+Traceback (most recent call last):
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 149, in post
+    form = self.get_form()
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/views/generic/edit.py", line 37, in get_form
+    return form_class(**self.get_form_kwargs())
+  File "/home/newuser/Desktop/second/venv/lib/python3.10/site-packages/django/forms/models.py", line 362, in __init__
+    raise ValueError("ModelForm has no model class specified.")
+ValueError: ModelForm has no model class specified.
+"POST /model_task/login/ HTTP/1.1" 500 92508
+/home/newuser/Desktop/second/myFirst/model_task/forms.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:40:29.855825+00:00
+"POST /model_task/login/ HTTP/1.1" 200 603
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:40:43.240479+00:00
+"POST /model_task/login/ HTTP/1.1" 200 650
+/home/newuser/Desktop/second/myFirst/model_task/views.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:41:22.303281+00:00
+"POST /model_task/login/ HTTP/1.1" 200 650
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:41:26.229508+00:00
+"POST /model_task/login/ HTTP/1.1" 200 650
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:42:49.885455+00:00
+"GET /admin/model_task/customuser/7/change/ HTTP/1.1" 200 29077
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:42:49.998350+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:42:50.110988+00:00
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2515
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:46:19.906243+00:00
+"GET /admin/model_task/customuser/ HTTP/1.1" 200 15138
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:46:19.936820+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:46:21.906164+00:00
+"GET /admin/model_task/customuser/2/change/ HTTP/1.1" 200 29111
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:46:21.950378+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:46:24.883946+00:00
+"GET /admin/model_task/customuser/ HTTP/1.1" 200 15138
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:46:24.907987+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:46:26.685562+00:00
+"GET /admin/model_task/customuser/4/change/ HTTP/1.1" 200 29115
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:46:26.757692+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:46:31.230182+00:00
+"GET /admin/model_task/customuser/ HTTP/1.1" 200 15138
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:46:31.255540+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:46:32.736251+00:00
+"GET /admin/model_task/customuser/add/ HTTP/1.1" 200 28744
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:46:32.782668+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:46:50.968153+00:00
+"POST /admin/model_task/customuser/add/ HTTP/1.1" 302 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:46:50.983900+00:00
+"GET /admin/model_task/customuser/ HTTP/1.1" 200 15647
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:46:51.049775+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:46:53.286060+00:00
+"GET /admin/model_task/customuser/9/change/ HTTP/1.1" 200 29060
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:46:53.329948+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:48:01.151471+00:00
+"GET /admin/model_task/customuser/ HTTP/1.1" 200 15728
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:48:01.172114+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:48:03.498817+00:00
+"GET /admin/model_task/customuser/10/change/ HTTP/1.1" 200 29145
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:48:03.540273+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+/home/newuser/Desktop/second/myFirst/model_task/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/model_task/forms.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:50:11.597863+00:00
+"GET /model_task/signup/ HTTP/1.1" 200 1110
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:50:32.547369+00:00
+"POST /model_task/signup/ HTTP/1.1" 302 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:50:32.748591+00:00
+"GET /model_task/thanks/ HTTP/1.1" 200 231
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:50:42.757150+00:00
+"GET /model_task/login/ HTTP/1.1" 200 507
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:50:53.315384+00:00
+"POST /model_task/login/ HTTP/1.1" 200 650
+/home/newuser/Desktop/second/myFirst/model_task/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/model_task/views.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:52:03.011133+00:00
+Method Not Allowed (POST): /model_task/login/
+Method Not Allowed: /model_task/login/
+"POST /model_task/login/ HTTP/1.1" 405 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:52:06.799047+00:00
+Method Not Allowed (GET): /model_task/login/
+Method Not Allowed: /model_task/login/
+"GET /model_task/login/ HTTP/1.1" 405 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:52:22.307032+00:00
+Method Not Allowed (GET): /model_task/login/
+Method Not Allowed: /model_task/login/
+"GET /model_task/login/ HTTP/1.1" 405 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:52:23.435529+00:00
+Method Not Allowed (GET): /model_task/login/
+Method Not Allowed: /model_task/login/
+"GET /model_task/login/ HTTP/1.1" 405 0
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:54:35.449340+00:00
+"GET /model_task/login/ HTTP/1.1" 200 507
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 14:54:43.736891+00:00
+"POST /model_task/login/ HTTP/1.1" 200 650
+/home/newuser/Desktop/second/myFirst/model_task/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/model_task/views.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 15:00:53.197387+00:00
+"POST /model_task/login/ HTTP/1.1" 200 650
+/home/newuser/Desktop/second/myFirst/model_task/urls.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 15:02:58.934790+00:00
+"POST /model_task/login/ HTTP/1.1" 200 650
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 15:02:59.741346+00:00
+"POST /model_task/login/ HTTP/1.1" 200 650
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 15:03:00.023700+00:00
+"POST /model_task/login/ HTTP/1.1" 200 650
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 15:03:00.296044+00:00
+"POST /model_task/login/ HTTP/1.1" 200 650
+/home/newuser/Desktop/second/myFirst/model_task/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/model_task/forms.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 15:03:52.981596+00:00
+"POST /model_task/login/ HTTP/1.1" 200 282
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 15:03:56.628822+00:00
+"POST /model_task/login/ HTTP/1.1" 200 282
+/home/newuser/Desktop/second/myFirst/model_task/views.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 15:04:22.144355+00:00
+"POST /model_task/login/ HTTP/1.1" 200 282
+/home/newuser/Desktop/second/myFirst/model_task/views.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 15:04:48.772209+00:00
+"POST /model_task/login/ HTTP/1.1" 200 282
+/home/newuser/Desktop/second/myFirst/model_task/views.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 15:04:59.196755+00:00
+"POST /model_task/login/ HTTP/1.1" 200 282
+/home/newuser/Desktop/second/myFirst/model_task/views.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 15:05:22.112282+00:00
+"POST /model_task/login/ HTTP/1.1" 200 282
+/home/newuser/Desktop/second/myFirst/model_task/views.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 15:06:26.317511+00:00
+"GET /admin/ HTTP/1.1" 200 13551
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 15:06:28.665248+00:00
+"GET /admin/model_task/customuser/ HTTP/1.1" 200 16038
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 15:06:28.692320+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 15:06:30.851028+00:00
+"GET /admin/model_task/customuser/11/change/ HTTP/1.1" 200 29163
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 15:06:30.954501+00:00
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 15:06:39.764376+00:00
+"GET /admin/model_task/customuser/ HTTP/1.1" 200 16038
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 15:06:52.641736+00:00
+"GET /model_task/login/ HTTP/1.1" 200 201
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 15:06:53.605022+00:00
+"GET /model_task/signup/ HTTP/1.1" 200 1110
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 15:07:19.687478+00:00
+"POST /model_task/signup/ HTTP/1.1" 302 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 15:07:19.887588+00:00
+"GET /model_task/thanks/ HTTP/1.1" 200 231
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 15:07:23.866074+00:00
+"GET /model_task/login/ HTTP/1.1" 200 201
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 15:07:25.382753+00:00
+"POST /model_task/login/ HTTP/1.1" 200 282
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 15:07:26.397235+00:00
+"POST /model_task/login/ HTTP/1.1" 200 282
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 15:07:28.235552+00:00
+"GET /model_task/login/ HTTP/1.1" 200 201
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 15:07:30.124082+00:00
+"GET /model_task/thanks/ HTTP/1.1" 200 231
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 15:07:32.294836+00:00
+"POST /model_task/login/ HTTP/1.1" 200 282
+/home/newuser/Desktop/second/myFirst/model_task/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/home/newuser/Desktop/second/myFirst/model_task/forms.py changed, reloading.
+Watching for file changes with StatReloader
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 15:08:26.441289+00:00
+"POST /model_task/login/ HTTP/1.1" 200 635
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 15:08:33.016756+00:00
+"POST /model_task/login/ HTTP/1.1" 302 0
+the ip address is: 127.0.0.1 and and at time: 2024-08-09 15:08:33.215205+00:00
+"GET /model_task/thanks/ HTTP/1.1" 200 231
+/home/newuser/Desktop/second/myFirst/model_task/views.py changed, reloading.
+Watching for file changes with StatReloader
