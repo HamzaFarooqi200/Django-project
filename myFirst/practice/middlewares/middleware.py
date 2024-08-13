@@ -8,6 +8,4 @@ class SampleMiddleware(MiddlewareMixin):
 
     # Retrieving the response
     response = self.get_response(request)
-
-    print(f"Custom middle ware: {request.path}")
     return response

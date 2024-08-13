@@ -26,7 +26,6 @@ class LoginForm(forms.Form):
     email = forms.CharField()
     password = forms.CharField()
     class Meta:
-        # model = CustomUser
         fields = [
             "email",
             "password"

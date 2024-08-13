@@ -1,9 +1,9 @@
 import logging
 from django.utils import timezone
-from django.http import HttpResponse
+from django.http import HttpResponseForbidden
 from django.utils.deprecation import MiddlewareMixin
-from ..models import RateLimit, CustomUser
-from django.contrib.auth import login
+from ..models import RateLimit
+
 
 logger = logging.getLogger('django')
 class IpLogMiddleware(MiddlewareMixin):
@@ -12,68 +12,62 @@ class IpLogMiddleware(MiddlewareMixin):
 
     def __call__(self, request):
 
-    # Retrieving the response
-      ip_address = request.META.get("REMOTE_ADDR")
-      timestamp = timezone.now()
-      logger.info(f'the ip address is: {ip_address} and and at time: {timestamp}')
       response = self.get_response(request)
-
-      print(f"Custom middl ware: {request.path}")
+      ip_address = request.META.get('REMOTE_ADDR')
+      current_time = timezone.now()
+      message = f'the ip address is: {ip_address} and and at time: {current_time}'
+      logging.getLogger('django').info(message)
       return response
     
-# class LimitMiddleware(MiddlewareMixin):
-#     RATE_LIMIT = 5
-#     def __init__(self, get_response):
-#       self.get_response = get_response
+class LimitMiddleware(MiddlewareMixin):
+    EXCLUDED_PATHS = ['admin', 'signup'] 
+    RATE_LIMIT = 5
 
-#     def __call__(self, request):
-#       curr_user = User.objects.filter(email="bilal@gmail.com").get()
-#       login(request, curr_user)
-#       print(f"Custom rate limit middleware: {request.path}")
-#       print("User", request.user)
-#       try:
-#         curr = Rate_limit.objects.filter(user=request.user).get()
-#       except:
-#          curr = Rate_limit.objects.create(request.user)
+    def __init__(self, get_response):
+      self.get_response = get_response
+
+    def __call__(self, request):
       
-#       return self.handle_limit(request, curr)
+      # print(f"Custom rate limit middleware: {request.path}")
+      if request.user.is_authenticated:
+        curr = RateLimit.objects.filter(user=request.user).first()
+        if curr:
+                response = self.handle_limit(request, curr)
+                if response:
+                    return response
+        return self.get_response(request)
+      return self.get_response(request)
     
-#     def handle_limit(self, req, user):
-#       now = timezone.now()
-#       limit = self.get_max_requests(user.user.role)
-#       time_window = timezone.timedelta(minutes=1)
+    def handle_limit(self, req, user):
+      now = timezone.now()
+      limit = self.get_max_requests(user.user.role)
+      time_window = timezone.timedelta(minutes=1)
 
-#       if (now - user.login_time) > time_window:
-#         user.req_count  = 1
-#         user.login_time = now
-#         user.save()
+      if not any(excluded_path in req.path for excluded_path in self.EXCLUDED_PATHS):
 
-#       else:
-#         user.req_count += 1
-#         print("LIMIT", user.req_count)
-#         if user.req_count > limit:
-#             return HttpResponse("Rate limit exceed!")
-#         user.save()
+        if (now - user.login_time) > time_window:
+          # print(f'-------nw')
+          user.req_count  = 1
+          user.login_time = now
+          user.save()
 
-#       response = self.get_response(req)
-#       return response
+        else:
+          # print(f'-------else Limit is {limit}')
+          if user.req_count >= limit:
+              # print("LIMIT is done!!!")
+              return HttpResponseForbidden("Rate limit exceed!")
+          user.req_count += 1
+          # print("LIMIT", user.req_count)
+          user.save()
 
-#     def get_max_requests(self, role):
-#         if role == 'g':
-#             return 10  # GOLD users
-#         elif role == 's':
-#             return 5   # SILVER users
-#         elif role == 'b':
-#             return 2   # BRONZE users
-#         elif role == 'u':
-#             return 1   # UNAUTHENTICATED users
-#         else:
-#             return 1   # Default rate limit if role is unknown
-
-#     def handle_default_rate_limit(self, request):
-#         # Use default rate limit based on IP address for unauthenticated users
-#         user_key = request.META.get('REMOTE_ADDR')
-#         cache_key = f"rate_limit_{user_key}"
-        
-#         response = self.get_response(request)
-#         return response     
+    def get_max_requests(self, role):
+        if role == 'g':
+            return 10  # GOLD users
+        elif role == 's':
+            return 5   # SILVER users
+        elif role == 'b':
+            return 2   # BRONZE users
+        elif role == 'u':
+            return 20   # UNAUTHENTICATED users
+        else:
+            return 20   # Default rate limit if role is unknown  

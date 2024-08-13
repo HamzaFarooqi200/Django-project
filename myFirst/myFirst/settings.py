@@ -53,7 +53,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'practice.middlewares.middleware.SampleMiddleware',
     'model_task.middlewares.middleware.IpLogMiddleware',
-    # 'model_task.middlewares.middleware.LimitMiddleware',
+    'model_task.middlewares.middleware.LimitMiddleware',
 ]
 
 ROOT_URLCONF = 'myFirst.urls'
