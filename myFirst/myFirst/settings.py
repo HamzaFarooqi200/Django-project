@@ -52,8 +52,11 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'practice.middlewares.middleware.SampleMiddleware',
+<<<<<<< HEAD
     'model_task.middlewares.middleware.IpLogMiddleware',
     'model_task.middlewares.middleware.LimitMiddleware',
+=======
+>>>>>>> parent of 80d51c5 (middleware)
 ]
 
 ROOT_URLCONF = 'myFirst.urls'
@@ -131,7 +134,7 @@ STATIC_URL = '/static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-AUTH_USER_MODEL = "model_task.CustomUser" 
+AUTH_USER_MODEL = "model_task.User" 
 
 # CELERY SETTINGS
 
@@ -141,26 +144,3 @@ CELERY_RESULT_SERIALIZER = 'json'
 CELERY_TASK_SERIALIZER = 'json'
 CELERY_RESULT_BACKEND = 'django-db'
 CELERY_TIMEZONE = 'Asia/Karachi'
-
-
-# settings.py
-
-LOGGING = {
-    'version': 1,
-    'disable_existing_loggers': False,
-    'handlers': {
-        'file': {
-            'level': 'INFO',
-            'class': 'logging.FileHandler',
-            'filename': "requests.txt",
-        },
-    },
-    'loggers': {
-        'django': {
-            'handlers': ['file'],
-            'level': 'INFO',
-            'propagate': True,
-        },
-    },
-}
-
