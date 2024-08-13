@@ -53,8 +53,11 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'practice.middlewares.middleware.SampleMiddleware',
 <<<<<<< HEAD
+<<<<<<< HEAD
     'model_task.middlewares.middleware.IpLogMiddleware',
     'model_task.middlewares.middleware.LimitMiddleware',
+=======
+>>>>>>> parent of 80d51c5 (middleware)
 =======
 >>>>>>> parent of 80d51c5 (middleware)
 ]

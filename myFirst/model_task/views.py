@@ -1,5 +1,6 @@
 from django.shortcuts import render
 <<<<<<< HEAD
+<<<<<<< HEAD
 from django.http import HttpResponsePermanentRedirect, HttpResponse
 from django.utils.decorators import method_decorator
 from django.contrib.auth.decorators import login_required
@@ -62,6 +63,14 @@ class Login(FormView):
             return self.form_invalid(form)
 
     
+=======
+from django.http import HttpResponse
+from django.views.generic import View, TemplateView
+
+# Create your views here.
+def hello_world(request):
+    return render(request, "check.html", {'name':'hamza'})
+>>>>>>> parent of 80d51c5 (middleware)
 =======
 from django.http import HttpResponse
 from django.views.generic import View, TemplateView
