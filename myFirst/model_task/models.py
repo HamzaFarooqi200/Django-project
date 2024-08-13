@@ -6,23 +6,30 @@ from django.core.exceptions import ValidationError
 from .managers import UserManager
 
 
-class User(AbstractUser):
+class CustomUser(AbstractUser):
+    ROLE_CHOICES = [
+        ("g","GOLD"),
+        ("s", "SILVER"),
+        ("b", "BRONZE"),
+        ("u", "UNAUTHENTICATED")
+    ]
     username = models.CharField(
         max_length=20,
         verbose_name="username",
         null = True,
-        unique = False
+        blank=True
     )
     email = models.EmailField(
         verbose_name="email",
         unique = True,
         null = False
     )
-    password = models.CharField(max_length=20, verbose_name="password")
+    role = models.CharField(max_length=1 , choices=ROLE_CHOICES, null=True)
     USERNAME_FIELD = "email"
     REQUIRED_FIELDS = []
 
     objects = UserManager()
+    
 
 def check_image(image):
     try:
@@ -49,7 +56,7 @@ class Profile(models.Model):
     profile_picture = models.ImageField(null=True, validators=[check_image])
     status = models.CharField(max_length=3, choices=ROLE_CHOICES)
     contact_number = models.CharField(max_length=11, validators=[check_phone_number])
-    user = models.OneToOneField(User, related_name="user_profile",on_delete=models.CASCADE)
+    user = models.OneToOneField(CustomUser, related_name="user_profile",on_delete=models.CASCADE)
 
 def check_end_date(date):
     today = timezone.now().date()
@@ -62,7 +69,7 @@ class Project(models.Model):
     description = models.TextField()
     start_date = models.DateField()
     end_date = models.DateField(validators=[check_end_date])
-    team_members = models.ManyToManyField(User, related_name='project_member')
+    team_members = models.ManyToManyField(CustomUser, related_name='project_member')
 
     def __str__(self) -> str:
         return self.title
@@ -90,7 +97,7 @@ class Task(models.Model):
     description = models.TextField()
     status = models.CharField(max_length=2, choices=TASK_STATUS_CHOICES)
     project = models.ForeignKey(Project, related_name="task_project", on_delete=models.CASCADE)
-    assignee = models.OneToOneField(User, related_name="assigned_user", on_delete=models.CASCADE)
+    assignee = models.OneToOneField(CustomUser, related_name="assigned_user", on_delete=models.CASCADE)
 
     def __str__(self) -> str:
         return self.title
@@ -107,10 +114,18 @@ class Document(models.Model):
 
 class Comment(models.Model):
     text = models.TextField()
-    author = models.OneToOneField(User, related_name="comment_author", on_delete=models.DO_NOTHING)
+    author = models.OneToOneField(CustomUser, related_name="comment_author", on_delete=models.DO_NOTHING)
     created_at = models.DateTimeField()
     task = models.ForeignKey(Task, related_name="task_comment", on_delete=models.DO_NOTHING)
     project = models.ForeignKey(Project, related_name="project_comment", on_delete=models.DO_NOTHING)
 
     def __str__(self) -> str:
         return str(self.author)
+
+class RateLimit(models.Model):
+    user = models.OneToOneField(CustomUser, related_name="rate_user", on_delete=models.CASCADE)
+    login_time = models.DateTimeField(auto_now_add=True)
+    req_count = models.IntegerField(default=0)
+
+    def __str__(self) -> str:
+        return str(self.user)
