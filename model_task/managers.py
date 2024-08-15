@@ -1,5 +1,5 @@
-from typing import Any
 from django.contrib.auth.models import BaseUserManager
+
 
 class UserManager(BaseUserManager):
     def create_user(self, email, password, **kwargs):
@@ -11,7 +11,7 @@ class UserManager(BaseUserManager):
         user.save(using=self._db)
 
         return user
-    
+
     def create_superuser(self, email, password=None, **kwargs):
         kwargs.setdefault("is_staff", True)
         kwargs.setdefault("is_superuser", True)

@@ -24,4 +24,4 @@ repos:
     hooks:
     -   id: flake8
         exclude: migrations|apps|queryset
-        args: [--max-line-length=91, --ignore=E402]
+        args: [--max-line-length=95, --ignore=E402]

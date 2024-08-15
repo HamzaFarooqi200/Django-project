@@ -4,14 +4,13 @@ from django.db import migrations
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
-        ('model_task', '0001_initial'),
+        ("model_task", "0001_initial"),
     ]
 
     operations = [
         migrations.RenameModel(
-            old_name='Rate_limit',
-            new_name='RateLimit',
+            old_name="Rate_limit",
+            new_name="RateLimit",
         ),
     ]

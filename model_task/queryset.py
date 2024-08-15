@@ -1,7 +1,5 @@
-from models import Project,Document,Comment,User
 from django.db.models import Count
-
-
+from models import Comment, Document, Project, User
 
 # Applying filter and startswith lookup
 data = Project.objects.values()
@@ -152,10 +150,12 @@ print(user)
 # haha4@gmail.com
 
 # Using bulk_create
-users = User.objects.bulk_create([
-    User(username="bye", email="bye4@gmail.com", password="123"),
-    User(username="hi", email="hi4@gmail.com", password="123")
-])
+users = User.objects.bulk_create(
+    [
+        User(username="bye", email="bye4@gmail.com", password="123"),
+        User(username="hi", email="hi4@gmail.com", password="123"),
+    ]
+)
 
 # Output:
 print(users)

@@ -4,44 +4,55 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     initial = True
 
-    dependencies = [
-    ]
+    dependencies = []
 
     operations = [
         migrations.CreateModel(
-            name='Student',
+            name="Student",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('name', models.CharField(max_length=10)),
-                ('email', models.EmailField(max_length=254, unique=True)),
-                ('status', models.CharField(choices=[('f', 'FSC'), ('m', 'MATRIC'), ('g', 'Graduation')], max_length=1, null=True)),
-                ('is_sportsman', models.BooleanField(default=False)),
-                ('is_speaker', models.BooleanField(default=False)),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("name", models.CharField(max_length=10)),
+                ("email", models.EmailField(max_length=254, unique=True)),
+                (
+                    "status",
+                    models.CharField(
+                        choices=[("f", "FSC"), ("m", "MATRIC"), ("g", "Graduation")],
+                        max_length=1,
+                        null=True,
+                    ),
+                ),
+                ("is_sportsman", models.BooleanField(default=False)),
+                ("is_speaker", models.BooleanField(default=False)),
             ],
         ),
         migrations.CreateModel(
-            name='Speaker',
-            fields=[
-            ],
+            name="Speaker",
+            fields=[],
             options={
-                'proxy': True,
-                'indexes': [],
-                'constraints': [],
+                "proxy": True,
+                "indexes": [],
+                "constraints": [],
             },
-            bases=('practice.student',),
+            bases=("practice.student",),
         ),
         migrations.CreateModel(
-            name='Sportsman',
-            fields=[
-            ],
+            name="Sportsman",
+            fields=[],
             options={
-                'proxy': True,
-                'indexes': [],
-                'constraints': [],
+                "proxy": True,
+                "indexes": [],
+                "constraints": [],
             },
-            bases=('practice.student',),
+            bases=("practice.student",),
         ),
     ]
