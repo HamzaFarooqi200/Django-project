@@ -19,6 +19,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('practice/', include("practice.urls")),
     path('model_task/', include("model_task.urls")),
+    path('queries/', include("queries.urls")),
 ]
 
 admin.site.site_title = "TicketsPlus site admin (DEV)"

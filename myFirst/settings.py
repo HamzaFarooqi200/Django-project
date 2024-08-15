@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django_extensions',
     'practice',
     'model_task',
+    'queries',
 ]
 
 MIDDLEWARE = [
